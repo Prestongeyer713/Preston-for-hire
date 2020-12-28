@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Preston Geyer website</title>
+   <link rel="stylesheet" href="styles/hamburgers.css">
+   <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700" rel="stylesheet">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+   <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+   <header>
+      <div class="hero">
+         <h2>Hi there!</h2>
+         <p class="name">My name is <span>Preston Geyer</span></p>
+         <p class="desc">I am front-end developer in training</p>
+         <p class="desc">I'm currently enrolled in a coding bootcamp but I'm learning alot everyday!</p>
+      </div>
+      <button onclick="toggleMenu()" class="hamburger hamburger--elastic" type="button">
+         <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+         </span>
+      </button>
+      <div class="menu">
+         <nav>
+            <ul class="navigation">
+               <li><a class="nav-link" href="#about">About me</a></li>
+               <li><a class="nav-link" href="#skills">Skills</a></li>
+               <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
+               <li><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+         </nav>
+         <section class="social">
+            <h2>Useful links:</h2>
+            <ul>
+               <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+               <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+               <li><a href="https://www.facebook.com/preston.geyer/"><i class="fab fa-facebook-square"></i></a></li>
+               <li><a href="https://github.com/Prestongeyer713"><i class="fab fa-github-square"></i></a></li>
+            </ul>
+         </section>
+      </div>
+      <div class="profile-pic"></div>
+   </header>
+   <section class="intro">
+      <h2>Let me know how can I help you with your projects!</h2>
+      <div class="buttons">
+         <button class="button-contact">Contact me!</button>
+         <button class="button-cv">Check my CV</button>
+      </div>
+   </section>
+   <div class="main">
+      <section id="about">
+         <h2>About me</h2>
+         <div class="about-container">
+            <div class="about-data">
+               <ul>
+                  <li>Full name: <span>Preston Geyer</span></li>
+                  <li>Age: <span>24 years</span></li>
+                  <li>Job: <span>Freelancer</span></li>
+                  <li>Telephone: <span>407-920-6172</span></li>
+                  <li>E-mail: <span>prestongeyer713@gmail.com</span></li>
+               </ul>
+            </div>
+            <p>I'm 24 years old and training to become a full stack web designer, I know it's a daunting field to jump into.
+               But after only 2 weeks of practice I was able to refactor code for another website (run-buddy 2.0) and help 
+               my brother build a website to help his small business. one day I hope to be able to work with real companys 
+               to help structure or refactor websites for them.</p>
+         </div>
+      </section>
+      <section id="skills">
+         <h2>Skills</h2>
+         <div class="skills-container">
+            <div class="skills-hard">
+               <h3>Hard ones</h3>
+               <div class="skills-item">
+                  <p>html</p>
+                  <div class="slider">
+                     <div class="slider-inner slider-html"></div>
+                  </div>
+               </div>
+               <div class="skills-item">
+                  <p>css</p>
+                  <div class="slider">
+                     <div class="slider-inner slider-css"></div>
+                  </div>
+               </div>
+               <div class="skills-item">
+                  <p>javascript</p>
+                  <div class="slider">
+                     <div class="slider-inner slider-js"></div>
+                  </div>
+               </div>
+            </div>
+            <div class="skills-soft">
+               <h3>Soft ones</h3>
+               <div class="skills-item">
+                  <p>responsibility</p>
+                  <div class="slider">
+                     <div class="slider-inner slider-responsibility"></div>
+                  </div>
+               </div>
+               <div class="skills-item">
+                  <p>communication</p>
+                  <div class="slider">
+                     <div class="slider-inner slider-communication"></div>
+                  </div>
+               </div>
+               <div class="skills-item">
+                  <p>teamwork</p>
+                  <div class="slider">
+                     <div class="slider-inner slider-teamwork"></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section id="portfolio">
+         <h2>Portfolio</h2>
+         <div class="portfolio-container">
+            <div class="portfolio-item">
+               <div class="portfolio-img">
+                  <div class="portfolio-img-overlay">
+                     <h4><a href="#">Project 1</a></h4>
+                  </div>
+               </div>
+               <div class="portfolio-desc">
+                  <h3>Run-Buddy 2.0</h3>
+                  <a href="file:///C:/Users/Prest/Desktop/projects/run-buddy/index.html">run-buddy 2.0</a>
+                  <p>Another website I built from scratch. Utilizing flex-box and css grid, I was able to turn this website from a bare bones html document to a fully responsive single web page application. Oh and it also has multiple break points for mobile devices.
+                  </p>
+               </div>
+            </div>
+            <div class="portfolio-item">
+               <div class="portfolio-img">
+                  <div class="portfolio-img-overlay">
+                     <h4><a href="#">Project 2</a></h4>
+                  </div>
+               </div>
+               <div class="portfolio-desc">
+                  <h3>Project 2</h3>
+                  <a href="#">www.project-two.pl</a>
+                  <p>My brother has commisioned me to make him a website to help with his new start up company that focuses on buying and selling pokemon trading cards. The website isnt quit finished yet so i dont have a live link for it but it will be soon.
+                  </p>
+               </div>
+            </div>
+            <div class="portfolio-item">
+               <div class="portfolio-img">
+                  <div class="portfolio-img-overlay">
+                     <h4><a href="#">Project 3</a></h4>
+                  </div>
+               </div>
+               <div class="portfolio-desc">
+                  <h3>Project 3</h3>
+                  <a href="#">www.project-three.pl</a>
+                  <p>Nothing here yet but as I get better at web development and take on more projects, they will be listed here for reference.
+                  </p>
+               </div>
+            </div>
+            <div class="portfolio-item">
+               <div class="portfolio-img">
+                  <div class="portfolio-img-overlay">
+                     <h4><a href="#">Project 4</a></h4>
+                  </div>
+               </div>
+               <div class="portfolio-desc">
+                  <h3>Project 4</h3>
+                  <a href="#">www.project-four.pl</a>
+                  <p>Nothing here yet but as I get better at web development and take on more projects, they will be listed here for reference.
+                  </p>
+               </div>
+            </div>
+            <div class="portfolio-item">
+               <div class="portfolio-img">
+                  <div class="portfolio-img-overlay">
+                     <h4><a href="#">Project 5</a></h4>
+                  </div>
+               </div>
+               <div class="portfolio-desc">
+                  <h3>Project 5</h3>
+                  <a href="#">www.project-five.pl</a>
+                  <p>Nothing here yet but as I get better at web development and take on more projects, they will be listed here for reference.
+                  </p>
+               </div>
+            </div>
+            <div class="portfolio-item">
+               <div class="portfolio-img">
+                  <div class="portfolio-img-overlay">
+                     <h4><a href="#">Project 6</a></h4>
+                  </div>
+               </div>
+               <div class="portfolio-desc">
+                  <h3>Project 6</h3>
+                  <a href="#">www.project-six.pl</a>
+                  <p>Nothing here yet but as I get better at web development and take on more projects, they will be listed here for reference.
+                  </p>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section id="contact">
+         <div class="contact-info">
+            <h2>Feel free to contact me!</h2>
+            <div class="contact-text">
+               <p>You can leave a message here for me, along with your name, email address and topic. Once done
+                  hit submit and it will email your message to me.</p>
+               <p>Please contact me with any questions you may have.</p>
+            </div>
+            <div class="contact-details">
+               <p><span>Altamonte Springs Florida</span></p>
+               <p>Lorem street 12/3, 53-123</p>
+               <p>407-920-6172</p>
+               <p>prestongeyer713@gmail.com</p>
+            </div>
+         </div>
+         <form class="contact-form" action="" method="">
+            <fieldset>
+               <input placeholder="Your name" type="text" tabindex="1" required>
+            </fieldset>
+            <fieldset>
+               <input placeholder="Your Email Address" type="email" tabindex="2" required>
+            </fieldset>
+            <fieldset>
+               <input placeholder="Topic" type="text" tabindex="3" required>
+            </fieldset>
+            <fieldset>
+               <textarea placeholder="Type your Message Here...." tabindex="4" required></textarea>
+            </fieldset>
+            <fieldset>
+               <button type="submit" tabindex="5">Send your Message!</button>
+            </fieldset>
+         </form>
+      </section>
+   </div>
+   <footer>
+      <p>&copy; 2020 Preston Geyer</p>
+   </footer>
+   <script>
+      const navigationLink = document.querySelectorAll('.nav-link');
+
+      function toggleMenu() {
+         const hamburger = document.querySelector('.hamburger');
+         const menu = document.querySelector('.menu');
+         hamburger.classList.toggle('is-active');
+         menu.classList.toggle('menu-active');
+      }
+
+      //toggle menu when link is clicked:
+      navigationLink.forEach(link => link.addEventListener('click', toggleMenu));
+   </script>
+</body>
+</html>
